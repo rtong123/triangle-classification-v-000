@@ -10,7 +10,7 @@ class Triangle
 
   def kind
     if @length1 == @length2 == @length3
-      return equilateral
+      return :equilateral
   end
 
 end
